@@ -1,0 +1,160 @@
+.logo{
+font-family: 'Alata', sans-serif;
+}
+.nav-link:hover{
+  border-bottom: 1px solid white;
+}
+#landing{
+  padding: 5%;
+  background-image: url("images/desktop/image-hero.jpg");
+  height: 500px;
+  background-size: 1405px 500px;;
+  background-repeat: no-repeat;
+}
+.immersive{
+width: 380px;
+height: 180px;
+background-color: rgba(100, 100, 100, 0.0);
+position: absolute;
+margin-top: 80px;
+border: 1px solid white;
+padding: 20px;
+}
+.immersive h1{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 42px;
+  line-height: 1.1;
+}
+#mid-section {
+  margin: 1% auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  min-height: 100vh;
+}
+.container-1{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leader-img img{
+  width: 50%;
+  height: 350px;
+}
+
+.leader-details{
+  width: 50%;
+  height: 350px;
+  background-color:white;
+  margin-left: -150px;
+  margin-top: 350px;
+  align-items: center;
+  padding: 60px 80px;
+}
+.leader-details h2{
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+.leader-details p{
+  color:gray;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#creations{
+  margin: 10% 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  min-height: 100vh;
+}
+.rows{
+  margin: 10px 0;
+}
+.creation-section{
+  margin-bottom: 50px;
+}
+
+.creation-title{
+  display: inline;
+  margin-left: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn-see-all{
+  margin-left: 760px;
+  width: 90px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.btn-see-all:hover{
+  background-color: black;
+  color:white;
+}
+.image{
+  position: relative;
+}
+.image img:hover{
+  opacity: 0.5;
+}
+.container h3{
+  position: absolute;
+  color: white;
+  bottom: 30px;
+  left: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#footer{
+  margin-top: 10%;
+}
+.footer{
+  margin-top: 10% auto;
+  background-color: black;
+  height: 100px;
+  padding:1% 5.5%;
+}
+/* Footer section */
+.footer .logo-socials a{
+  color: white;
+  padding-right: 930px;
+}
+.fa-brands{
+  color: white;
+  padding: 3px;
+}
+.logo-socials{
+  margin-bottom: 10px;
+}
+.last-row{
+  display: flex;
+}
+.footer ul{
+  padding: 0;
+}
+.footer ul li{
+  display: inline;
+  padding-right: 15px;
+}
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+.footer ul li a:hover{
+  border-bottom: 1px solid white;
+}
+.copyright{
+  display: inline;
+  padding-left: 600px;
+  font-size: 10px;
+  color:white;
+  padding: 0 3px 10px 600px;
+}
